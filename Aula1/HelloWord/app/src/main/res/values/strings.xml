@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HelloWord</string>
+    <string name="email_incorrect_message">Digite o e-mail correto!</string>
+</resources>
