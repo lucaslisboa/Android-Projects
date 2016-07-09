@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/conhecimento_digital"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/nome_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mouse Óptico"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/codigo_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0001"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#6e6c6c"
+            />
+
+        <TextView
+            android:id="@+id/preco_produto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="R$ 10,00"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="right"
+            android:textColor="#014505"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

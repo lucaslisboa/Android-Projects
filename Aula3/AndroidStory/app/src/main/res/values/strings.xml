@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Story</string>
+    <string name="type_user">Digite o seu usuário</string>
+    <string name="type_password">Digite sua senha</string>
+    <string name="login">Logar</string>
+    <string name="required_field">Campo obrigatório!</string>
+</resources>
